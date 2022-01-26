@@ -2,9 +2,10 @@
     display: flex;
     flex-direction: column;
 }
-.form {
+.centro {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
  section , footer , nav , main , article , figure {
     display: block;
@@ -15,9 +16,13 @@ flex-direction: column;
 align-items: center;
 color: darkblue;
 }
-input[type="text"]
-{
+input[type="text"],select[name="classe"]{
     background: rgba(0, 0, 0, 0);
     border: none;
     outline: none;
+}
+.ref {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
